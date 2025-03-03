@@ -590,8 +590,8 @@ a {
   background-color: #fff;
 }
 
-.blogs .item:hover{
-  box-shadow: 0px 16px 32px 0px #0000000D;
+.blogs .item:hover {
+  box-shadow: 0px 16px 32px 0px #0000000d;
 }
 
 .blogs .item .thumb {
@@ -645,31 +645,107 @@ a {
   line-height: 1.75;
 }
 
-.blogs .item .btn{
+.blogs .item .btn {
   margin-top: 12px;
   font-size: 1.4rem;
 }
 
-.blogs .item .btn:hover{
+.blogs .item .btn:hover {
   background: var(--primary-color);
 }
 
-.blogs .dots{
+.blogs .dots {
   display: flex;
   justify-content: center;
   gap: 6px;
   margin-top: 38px;
 }
 
-.blogs .dots .dot{
+.blogs .dots .dot {
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background-color: #5F5B53;
+  background-color: #5f5b53;
   cursor: pointer;
 }
 
-.blogs .dots .active{
+.blogs .dots .active {
   background-color: var(--primary-color);
   cursor: default;
+}
+
+/* ========== footer ========== */
+.footer {
+  background-color: #2e2100;
+  padding: 96px 135px 0;
+}
+
+.footer .row {
+  display: flex;
+  padding-bottom: 38px;
+  border-bottom: 1px solid #59554b;
+}
+
+.footer .row .column {
+  width: 21.6%;
+}
+
+.footer .row .column:first-child {
+  width: 35%;
+}
+
+.footer .desc {
+  margin-top: 18px;
+  max-width: 267px;
+  color: #bfbcb2;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.footer .socials {
+  display: flex;
+  gap: 18px;
+  margin-top: 18px;
+}
+
+.footer .title {
+  display: inline-block;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.6rem;
+  line-height: 1.75;
+  border-bottom: 1px solid #59554b;
+  padding-bottom: 14px;
+  padding-right: 48px;
+}
+
+.footer .list {
+  margin-top: 28px;
+}
+
+.footer .list a {
+  display: inline-block;
+  color: #bfbcb2;
+  font-size: 1.4;
+  line-height: 1.86;
+  margin-bottom: 12px;
+}
+
+.footer .list li:last-child a {
+  margin-bottom: 0px;
+}
+
+.footer .list strong {
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 1.4rem;
+  line-height: 1.86;
+}
+
+.footer .copyright {
+  padding: 28px 0px;
+  color: #807D74;
+  font-size: 1.4rem;
+  line-height: 1.86;
+  text-align: center;
 }
